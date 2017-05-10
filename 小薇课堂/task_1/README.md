@@ -7,4 +7,4 @@
 - 示例图仅为参考，不需要完全实现一致，其中的图片、文案均可自行设定
 - 尽可能多地尝试更多的HTML标签
 ### 完成效果
-![完成效果](https://moneylq.github.io/Baidu_IFE/%E5%B0%8F%E8%96%87%E8%AF%BE%E5%A0%82/task_1/)
+[完成效果演示](https://moneylq.github.io/Baidu_IFE/%E5%B0%8F%E8%96%87%E8%AF%BE%E5%A0%82/task_1/)
