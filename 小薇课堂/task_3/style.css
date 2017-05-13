@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*页面整体样式*/
+.container {
+	margin: 20px;
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+}
+/*页面左边样式*/
+.left {
+	width: 160px;
+	height: 80px;
+	float: left;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+.left .logo {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.left .logo img {
+	width: 80px;
+	height: 80px;
+}
+
+.left span {
+	float: right;
+}
+
+
+
+/*网页右边的样式*/
+.right {
+	width: 80px;
+	padding: 20px;
+	float: right;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+.right .per_logo {
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	border: 1px solid #999;
+}
+
+.right .per_logo img {
+	width: 80px;
+	height: 80px;
+}
+/*中间部分样式*/
+.content {
+	padding: 20px;
+	background: #fff;
+	margin-left: 220px;
+	margin-right: 140px;
+	border: 1px solid #999;
+}
