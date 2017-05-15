@@ -29,7 +29,9 @@ img {
 	float: right;
 	margin-right: 23px;
 }
-
+.header .nav li {
+	margin-right: 23px;
+}
 .header img {
 	width: 117px;
 	height: 38px;
@@ -49,8 +51,6 @@ img {
 
 
 /*主体内容样式*/
-
-
 /*第一篇文章样式*/
 
 .first {
@@ -209,7 +209,9 @@ img {
 
 .last table {
 	width: 100%;
-	margin: 20px;
+	margin-left: 10px;
+	margin: 20px 20px 0 0;
+	margin-right: 20px;
 	border: 1px solid red;
 }
 
