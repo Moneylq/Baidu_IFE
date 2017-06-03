@@ -1,345 +1,162 @@
-* {
+/*全局样式*/
+body{
+	background: #000;
 	margin: 0;
 	padding: 0;
 }
-
-body {
-	font-family: "微软雅黑";
-	background-color: #dedede;
+.container{
+	width: 90%;
+	margin: 0 auto;
+	background: #dedede;
 }
-
-img {
-	width: 300px;
-	height: 240px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-
-/*头部样式*/
-
-.header {
-	width: 100%;
+/*头部导航栏的样式*/
+.header{
+	background: #333;
 	height: 60px;
-	background-color: #333;
-	display: table;
 }
-
-.header .nav {
-	float: right;
-	margin-right: 23px;
-}
-.header .nav li {
-	margin-right: 23px;
-}
-.header img {
-	width: 117px;
-	height: 38px;
-	margin-left: 40px;
-	margin-top: 10px;
-}
-
-.header .nav li {
+.header img{
 	float: left;
-	line-height: 60px;
+	height: 60px;
 }
 
-.header .nav a {
-	font-size: 16px;
-	color: #fff;
+.header ul{
+	float: right;
 }
 
-
-/*主体内容样式*/
-/*第一篇文章样式*/
-
-.first {
-	width: 1240px;
-	height: 710px;
-	margin-top: 20px;
-	margin-left: 20px;
-	padding-top: 40px;
-	padding-left: 20px;
-	background-color: #fff;
+.header ul li{
+	float: left;
 }
-
-.first h1 {
-	font-size: 26px;
-	margin-bottom: 23px;
-}
-
-.first h4 {
-	font-size: 20px;
-	margin-bottom: 20px;
-}
-
-.first span {
-	color: #708ba6;
-	font-size: 14px;
-}
-
-.first p {
-	text-indent: 2em;
-	line-height: 1.5;
-	margin-right: 30px;
-}
-
-.first_p {
-	margin-top: 23px;
-}
-
-.first img {
-	width: 300px;
-	height: 240px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-
-/*第二篇文章样式*/
-
-.second {
-	width: 1240px;
-	/*height: 835px;*/
-	margin-top: 20px;
-	margin-left: 20px;
-	padding-top: 40px;
-	padding-left: 20px;
-	padding-bottom: 45px;
-	background-color: #fff;
-}
-
-.second h2 {
-	font-size: 26px;
-	margin-bottom: 23px;
-}
-
-.second h3 {
-	margin-bottom: 20px;
-}
-
-.second span {
-	color: #708ba6;
-	font-size: 14px;
-}
-
-.second p {
-	text-indent: 2em;
-	line-height: 1.5;
-	margin-right: 30px;
-}
-
-.second li {
-	line-height: 1.5;
-	margin-left: 40px;
-}
-
-
-/*第三篇文章 */
-
-.third {
-	width: 1240px;
-	margin-top: 20px;
-	margin-left: 20px;
-	padding-top: 40px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	background-color: #fff;
-}
-
-.third .img_cat {
-	width: 126px;
-	height: 120px;
-	text-align: center;
-	margin-top: 20px;
-	margin-left: 40px;
-	padding-top: 10px;
-	border: solid 1px black;
-}
-
-.third .img_cat text {
-	font-size: 12px;
-}
-
-.third .img_cat img {
-	width: 100px;
-	height: 80px;
-	margin: 10px;
-}
-
-
-/*最后一篇文章*/
-
-.last {
-	width: 1240px;
-	margin-top: 20px;
-	margin-left: 20px;
-	padding-top: 40px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	background-color: #fff;
-}
-
-.last h2 {
-	font-size: 26px;
-	margin-bottom: 23px;
-}
-
-.last h3 {
-	margin-bottom: 20px;
-}
-
-.last span {
-	color: #708ba6;
-	font-size: 14px;
-}
-
-.last p {
-	text-indent: 2em;
-	line-height: 1.5;
-	margin-right: 30px;
-}
-
-.last ol {
-	margin-top: 20px;
-	margin-left: 40px;
-	line-height: 1.5;
-	font: bold;
-}
-
-.last table {
-	width: 100%;
-	margin-left: 10px;
-	margin: 20px 20px 0 0;
+.header ul li a{
+	text-decoration: none;
 	margin-right: 20px;
-	border: 1px solid red;
-}
+	color: white;
+	font:14px "微软雅黑";
 
-.last .bt {
-	background-color: #333;
+}
+/*中间内容部分样式*/
+.content{
+	background: #dedede;
+}
+article{
+	background: #FFFFFF;
+	margin: 10px 20px;
+	box-shadow: 2px 2px 2px #9f9f9f;
+	padding: 20px;
+	border: 1px solid #cbcbcb;
+}
+article h3{
+	font: bold 20px "微软雅黑";
+	color: #594e4c;
+}
+article span{
+	font: bold 14px "微软雅黑";
+	color: #899c96;
+}
+article p{
+	font: 16px "微软雅黑";
+	margin-top: 0px;
+	line-height: 26px;
+}
+article .first_p{
+	text-indent: 2em;
+}
+article img{
+	width: 200px;
+	height: 200px;
+}
+article ul li{
+	list-style: none;
+}
+/*第三模块*/
+.pic_title{
+	font: bold 20px "微软雅黑";
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.pics{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.img{
+	width: 200px;
+	height: 230px;
+	text-align: center;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+}
+.img p{
+	margin: 10px auto;
+	font: 16px "微软雅黑";
+	
+}
+.img img{
+	margin: 10px auto;
+	max-height: 160px;
+	max-width: 160px;
+}
+/*第四模块*/
+.biaoge{
+	width: 100%;
+}
+.title{
+	background-color:#333;
 	color: #fff;
 }
-
-.last .bd {
+.tfoot{
 	background-color: #ccc;
-	font: bold;
 }
-
-
-/*侧栏的样式*/
-
-.sidebar {
-	width: 1240px;
-	margin-top: 20px;
-	margin-left: 20px;
-	padding-top: 40px;
+/*侧栏部分样式*/
+aside{
+	background: #fff;
+	margin: 10px 20px;
+	padding: 20px;
+	border: 1px solid #cbcbcb;
+	box-shadow: 2px 2px 2px #646464;
+}
+.aside_title{
+	border-left: 5px solid #ccc;
 	padding-left: 20px;
-	padding-bottom: 20px;
-	background-color: #fff;
+	font: bold 16px "微软雅黑";
 }
-
-.sidebar h3 {
-	border-left: 4px solid #ccc;
-	height: 36px;
-	line-height: 36px;
-	padding-left: 10px;
+.form_content{
+	margin-left: 300px;
 }
-
-.sidebar form {
-	line-height: 28px;
-}
-
-.sidebar fieldset {
-	padding-left: 290px;
+form p{
 	
-}
-.sidebar .z_l {
-	display: block;
-}
-
-.label span {
-	display: inline-block;
-	width: 120px;
-	text-align: right;
-}
-.label input {
-	margin-left: 10px;
-}
-
-.label p {
-	display: block;
-	padding-left: 130px;
-	color: #bbbabf;
-}
-
-.label select {
-	margin-left: 10px;
-}
-
-.des {
-	
-}
-.label textarea {
 	margin-top: 10px;
-	margin-left: 10px;
+	font: 14px "微软雅黑";
 }
-button {
-	display: block;
-	border: none;
+form input{
+	margin-left: 20px;
+}
+.des_email{
+	margin-left: 120px;
+	color: #ccc;
+}
+.second{
+	margin-left: 28px;
+}
+.des_pwd{
+	margin-left: 120px;
+	color: #ccc;
+}
+.submit{
 	width: 100%;
 	height: 40px;
-	line-height: 40px;
+	background-color: blue;
 	color: #fff;
-	font-size: 16px;
-	text-align: center;
 	border-radius: 10px;
-	background-color: #3355d0;
+	/*margin-top: 10px;
+	margin-right: 40px;*/
+	margin: 10px auto;
 }
-/*参考*/
-
-.form fieldset{
-  padding-left: 275px;
-  border: none;
-}
-
-.label__name{
-  display: inline-block;
-  width: 120px;
-  text-align: right;
-}
-.label__tip{
-  display: block;
-  padding-left: 120px;
-  color: #999;
-}
-
-.form__submit-btn{
-  display: block;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  border: none;
-  border-radius: 10px;
-  background: #3355d0;
-  color: #fff;
-  text-align: center;
-  font-size: 16px;
-}
-
-/*页面底部样式*/
-
-.footer {
-	width: 100%;
-	height: 70px;
-	margin-top: 20px;
-	background-color: #000;
-}
-
-.footer span {
-	width: 100%;
-	color: #FFFFFF;
-	font-size: 12px;
-	float: left;
+/*footer样式*/
+.footer{
+	background: #000;
 	text-align: center;
-	margin-top: 20px;
+	font: 12px "微软雅黑";
+	color: #fff;
+	padding-top: 10px;
+	height: 30px;
+	line-height: 30px;
 }
