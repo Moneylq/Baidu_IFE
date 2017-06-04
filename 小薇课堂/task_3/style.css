@@ -1,68 +1,72 @@
-* {
+*{
 	margin: 0;
 	padding: 0;
 }
 
-/*页面整体样式*/
-.container {
+/*container样式*/
+.container{
 	margin: 20px;
 	padding: 20px;
-	background: #eee;
+	background-color: #eee;
 	border: 1px solid #999;
+	/*overflow很重要！千万不要漏点这一点！*/
 	overflow: auto;
 }
-/*页面左边样式*/
-.left {
-	width: 160px;
+
+/*左边布局*/
+.left{
+	padding: 20px;
+	width: 180px;
 	height: 80px;
 	float: left;
-	padding: 20px;
-	background: #fff;
+	background-color: #fff;
 	border: 1px solid #999;
 }
 
-.left .logo {
-	width: 80px;
-	height: 80px;
+.logo{
 	float: left;
 }
 
-.left .logo img {
+.logo img{
 	width: 80px;
 	height: 80px;
-}
-
-.left span {
-	float: right;
-}
-
-
-
-/*网页右边的样式*/
-.right {
-	width: 80px;
-	padding: 20px;
-	float: right;
-	background: #fff;
 	border: 1px solid #999;
 }
 
-.right .per_logo {
+.logo_name{
+	float: right;
+}
+
+/*右边一栏的样式*/
+.right{
+	width: 80px;
+	padding: 0px 20px 20px 20px;
+	float: right;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.per_logo{
 	width: 80px;
 	height: 80px;
 	margin-top: 20px;
 	border: 1px solid #999;
 }
 
-.right .per_logo img {
+.per_logo img{
 	width: 80px;
 	height: 80px;
 }
-/*中间部分样式*/
-.content {
+
+/*中间部分*/
+.content{
 	padding: 20px;
-	background: #fff;
-	margin-left: 220px;
+	margin-left: 240px;
 	margin-right: 140px;
+	background-color: #fff;
 	border: 1px solid #999;
+}
+
+.content p{
+	
+	font: 14px "微软雅黑";
 }
