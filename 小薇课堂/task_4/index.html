@@ -2,38 +2,47 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>小薇课堂task_4</title>\
+		<title>task4</title>
 		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
 			.container {
 				width: 400px;
 				height: 200px;
 				background-color: #ccc;
-				position: fixed;
+				margin: auto;  
+  				position: absolute;  
+  				top: 0; 
+  				left: 0; 
+  				bottom: 0; 
+  				right: 0;  
 			}
-			.left_top {
-				position: absolute;
+			.container .left {
 				width: 50px;
 				height: 50px;
+				background-color: #fc0;
+				border-radius: 0 0 100% 0;
+				position: absolute;
 				top: 0;
 				left: 0;
-				border-radius: 0 0 100% 0 ;
-				background-color: #fc0;
 			}
-			.right_bottom {
-				position: absolute;
+			.container .right {
 				width: 50px;
 				height: 50px;
+				background-color: #fc0;
+				position: absolute;
 				right: 0;
 				bottom: 0;
 				border-radius: 100% 0 0 0;
-				background-color: #fc0;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
-			<div class="left_top"></div>
-			<div class="right_bottom"></div>
+			<div class="left"></div>
+			<div class="right"></div>
 		</div>
 	</body>
 </html>
